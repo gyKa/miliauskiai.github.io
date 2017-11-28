@@ -13,8 +13,14 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 	color:#f9667e;
 }
 
-section{
+section {
 	padding: 120px 0;
+}
+
+section#counter {
+	background: url("http://via.placeholder.com/1100x619") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 /* 2. Navigation */
