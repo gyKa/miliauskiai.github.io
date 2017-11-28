@@ -1,0 +1,124 @@
+/* 1. General style */
+body {
+	color:#7b7571;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6, section#home {
+	font-family: "Oswald", Verdana, Geneva, sans-serif;
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+	color:#f9667e;
+}
+
+section{
+	padding: 120px 0;
+}
+
+/* 2. Navigation */
+
+/* 3. Section - home  */
+section#home {
+	background: url("http://via.placeholder.com/1100x619") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+	height: 800px;
+	padding: 50px 0;
+	position: relative;
+	padding-top: 6%;
+}
+
+.title span {
+    -moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	display: inline-block;
+	margin: 5px 10px;
+	width: 40px;
+	border-color: #D6516D -moz-use-text-color -moz-use-text-color;
+	border-style: solid none none;
+	border-width: 1px 0 0;
+}
+
+ul.names {
+	list-style: none;
+	display: inline;
+	font-size: 100px;
+	font-weight: 300;
+	padding: 0;
+}
+
+ul.names li {
+	display: inline-block;
+}
+
+.circle{
+	background: #F9667E;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 63px;
+	font-weight: normal;
+	line-height: 1.5em;
+	border-radius: 100px;
+	margin: 0;
+	color: #fff;
+	top: -15px;
+	position: relative;
+}
+
+.date {
+	font-size: 50px;
+}
+
+.place {
+	font-size: 20px;
+}
+
+@media (max-width: 767px) {
+	section#home {
+		height: auto;
+    }
+    
+	.title {
+		margin-bottom: 30px;
+    }
+    
+	.title span {
+		width: 17px;
+		margin: 7px 5px;
+    }
+    
+	#home h3 {
+		font-size: 18px;
+    }
+    
+	.date {
+		font-size: 30px;
+		margin-top: 30px;
+	}
+
+	section#home ul.names {
+		font-size: 35px;
+		text-align: center;
+		margin-bottom: 20px;
+    }
+    
+	section#home ul.names li {
+		display: list-item;
+    }
+    
+	section#home .circle {
+	    width: 64px;
+	    height: 64px;
+	    font-size: 41px;
+	    line-height: 1.5em;
+	    top: 0;
+	    margin: auto;
+	}
+}
